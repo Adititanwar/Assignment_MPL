@@ -50,3 +50,22 @@ exports.deleteBlog = async (req, res) => {
     res.status(500).json({ message: 'Failed to delete blog' });
   }
 };
+
+exports.getAllBlogs = async (req, res) => {
+  try {
+    const blogs = await Blog.find().populate('author', 'name email');
+    res.json({ blogs });
+  } catch (err) {
+    res.status(500).json({ message: 'Failed to fetch blogs' });
+  }
+};
+
+exports.getBlogById = async (req, res) => {
+  try {
+    const blog = await Blog.findById(req.params.id).populate('author', 'name email');
+    if (!blog) return res.status(404).json({ message: 'Blog not found' });
+    res.json({ blog });
+  } catch (err) {
+    res.status(500).json({ message: 'Error fetching blog' });
+  }
+};
