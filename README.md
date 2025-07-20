@@ -4,6 +4,8 @@ A simple Node.js blog platform with user authentication and CRUD operations.
 
 ## Setup
 
+cd Assignment_MPL/Assignment
+
 1. **Install dependencies**
 ```bash
 npm install
