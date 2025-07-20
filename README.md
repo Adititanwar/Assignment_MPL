@@ -26,14 +26,14 @@ PORT - Server port (default: 3000)
 MONGO_URI - MongoDB connection string
 JWT_SECRET - Secret key for JWT tokens
 
-API Endpoints
+**API Endpoints**
 Auth
 
 POST /api/auth/signup - Register user
 POST /api/auth/login - Login user
 GET /api/auth/me - Get user profile
 
-Blogs
+**Blogs**
 
 GET /api/blogs - Get all blogs
 GET /api/blogs/:id - Get single blog
