@@ -169,6 +169,32 @@ Authorization: Bearer <your-jwt-token>
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
+## 📬 Postman Collection
+
+For easy API testing, we've published a Postman collection with all endpoints configured:
+
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://documenter.getpostman.com/view/46030068/2sB34kEK3b)
+
+**📋 [View Documentation](https://documenter.getpostman.com/view/46030068/2sB34kEK3b)**
+
+**Collection includes:**
+- Pre-configured requests for all API endpoints
+- Environment variables for easy server switching
+- Authentication setup with JWT tokens
+- Sample request bodies and test data
+- Automated tests and validations
+
+**To use the collection:**
+1. Click the "Run in Postman" button above
+2. Import the collection to your Postman workspace
+3. Set up environment variables (`base_url`, `jwt_token`)
+4. Start testing the API endpoints
+
+**Quick Test Flow:**
+1. Run `POST /auth/signup` to create a user
+2. Run `POST /auth/login` to get JWT token
+3. Use the token for authenticated blog operations
+
 ## 💬 Support
 
 If you have any questions or need help with setup, please open an issue on GitHub.
