@@ -1,16 +1,18 @@
-Blog Platform Backend
+# Blog Platform Backend
+
 A simple Node.js blog platform with user authentication and CRUD operations.
-Setup
 
-Install dependencies
+## Setup
 
-bashnpm install
+1. **Install dependencies**
+```bash
+npm install
 
 Create .env file
 
 envPORT=3000
 MONGO_URI=mongodb://localhost:27017/blogDB
-JWT_SECRET=your_secret_key
+JWT_SECRET=its_my_secret_hehehe
 
 Start the server
 
