@@ -94,11 +94,6 @@ nodemon for development
 🤝 Contributions
 Feel free to fork the repo and open pull requests for improvements!
 
-vbnet
-Copy
-Edit
-
-Let me know if you'd like to add a **Postman collection**, **API request examples**, or **deployment steps** as well.
 
 
 
@@ -107,4 +102,6 @@ Let me know if you'd like to add a **Postman collection**, **API request example
 
 
 
-Ask ChatGPT
+
+
+
